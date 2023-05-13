@@ -1,0 +1,48 @@
+html,
+body{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.credit{
+    margin-left: 30px;
+    align-self: self-start;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    margin: 50px;
+}
+
+a{
+    padding: 20px;
+    margin:0 100px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: #AAA;
+}
+
+h1{
+    margin: 50px 0 0 0 ;
+}

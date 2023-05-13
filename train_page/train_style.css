@@ -1,0 +1,17 @@
+.voltar{
+    margin:0;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    transition: 0.3s;
+}
+
+.voltar:hover{
+    transform: scale(120%);
+}
