@@ -1,3 +1,16 @@
+html,
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
 .voltar{
     margin:0;
     padding: 40px;
@@ -14,4 +27,15 @@
 
 .voltar:hover{
     transform: scale(120%);
+}
+
+h1{
+    margin: 50px 0 0 0;
+}
+
+button{
+    padding: 20px;
+    align-items: center;
+    transition: .3s;
+    margin: 20px;
 }
