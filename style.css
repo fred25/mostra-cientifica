@@ -29,7 +29,7 @@ body{
     margin: 50px;
 }
 
-a{
+nav button{
     padding: 20px;
     margin:0 100px;
     transition: 0.2s;
@@ -39,10 +39,20 @@ a{
     border-radius: 10px;
 }
 
-a:hover{
+nav button:hover{
     background-color: #AAA;
 }
 
 h1{
     margin: 50px 0 0 0 ;
+}
+
+.selected{
+    background-color: lime;
+}
+
+button{
+    border: 3px solid black;
+    border-radius: 100vw;
+    font-size: 	0.5cm;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +14,22 @@
             <h1>Mostra Científica Anchietana</h1>
             <h3>Rede Neural X Mente Humana para reconhecimento de imagens</h3>
             <nav class="menu">
-                <a href="train_page/train_index.html">Treino</a>
-                <a href="test_page/test_index.html">Teste</a>
+                <button id="train_but">Treino</button>
+                <button id="test_but">Teste</button>
             </nav>
+                <h3>Escolha o tipo de Dado</h3>
+                <div>
+                <button id="pic_but" class="selected">Fotos</button>
+                <button id="aud_but">Áudios</button>
+                <button id="num_but">Números</button>
+            </div>
         </div>
         <div class="credit">
             <p>Autores: Gaspary, Artur; Piscitelli, Carolina; Mattos, Frederico; Ferreira, Nícolas</p>
             <p>Orientador: Belline, Jean</p>
         </div>
     </body>
-</html>
+
+    <script src="code.js"></script>
+
+    </html>
