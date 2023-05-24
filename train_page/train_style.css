@@ -39,3 +39,11 @@ button{
     transition: .3s;
     margin: 20px;
 }
+
+.right{
+    background-color: lime;
+}
+
+.wrong{
+    background-color: red
+}
