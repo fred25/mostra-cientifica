@@ -1,5 +1,4 @@
 let pic_but = document.getElementById("pic_but");
-let aud_but = document.getElementById("aud_but");
 let num_but = document.getElementById("num_but");
 
 let test_but = document.getElementById("test_but");
@@ -11,21 +10,12 @@ data_type = "Image";
 pic_but.addEventListener("click", () => {
     data_type = "Image";
     pic_but.classList.add("selected");
-    aud_but.classList.remove("selected");
-    num_but.classList.remove("selected");
-});
-
-aud_but.addEventListener("click", () => {
-    data_type = "Audio";
-    pic_but.classList.remove("selected");
-    aud_but.classList.add("selected");
     num_but.classList.remove("selected");
 });
 
 num_but.addEventListener("click", () => {
     data_type = "Number";
     pic_but.classList.remove("selected");
-    aud_but.classList.remove("selected");
     num_but.classList.add("selected");
 });
 
